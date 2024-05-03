@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BaiTapLonConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BaiTapLonConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BTL_HSK_AUTH.Properties.Settings.GlobalReference.Default.BaiTapLonConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HD_BY_MANV" msprop:Generator_TableClassName="HD_BY_MANVDataTable" msprop:Generator_TableVarName="tableHD_BY_MANV" msprop:Generator_TablePropName="HD_BY_MANV" msprop:Generator_RowDeletingName="HD_BY_MANVRowDeleting" msprop:Generator_RowChangingName="HD_BY_MANVRowChanging" msprop:Generator_RowEvHandlerName="HD_BY_MANVRowChangeEventHandler" msprop:Generator_RowDeletedName="HD_BY_MANVRowDeleted" msprop:Generator_UserTableName="HD_BY_MANV" msprop:Generator_RowChangedName="HD_BY_MANVRowChanged" msprop:Generator_RowEvArgName="HD_BY_MANVRowChangeEvent" msprop:Generator_RowClassName="HD_BY_MANVRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sMaNV" msprop:Generator_ColumnVarNameInTable="columnsMaNV" msprop:Generator_ColumnPropNameInRow="sMaNV" msprop:Generator_ColumnPropNameInTable="sMaNVColumn" msprop:Generator_UserColumnName="sMaNV" type="xs:string" minOccurs="0" />
+              <xs:element name="sTenNV" msprop:Generator_ColumnVarNameInTable="columnsTenNV" msprop:Generator_ColumnPropNameInRow="sTenNV" msprop:Generator_ColumnPropNameInTable="sTenNVColumn" msprop:Generator_UserColumnName="sTenNV" type="xs:string" minOccurs="0" />
+              <xs:element name="sDiaChi" msprop:Generator_ColumnVarNameInTable="columnsDiaChi" msprop:Generator_ColumnPropNameInRow="sDiaChi" msprop:Generator_ColumnPropNameInTable="sDiaChiColumn" msprop:Generator_UserColumnName="sDiaChi" type="xs:string" minOccurs="0" />
+              <xs:element name="dNgaySinh" msprop:Generator_ColumnVarNameInTable="columndNgaySinh" msprop:Generator_ColumnPropNameInRow="dNgaySinh" msprop:Generator_ColumnPropNameInTable="dNgaySinhColumn" msprop:Generator_UserColumnName="dNgaySinh" type="xs:string" minOccurs="0" />
+              <xs:element name="sSoHD" msprop:Generator_ColumnVarNameInTable="columnsSoHD" msprop:Generator_ColumnPropNameInRow="sSoHD" msprop:Generator_ColumnPropNameInTable="sSoHDColumn" msprop:Generator_UserColumnName="sSoHD" type="xs:string" minOccurs="0" />
+              <xs:element name="sMaKH" msprop:Generator_ColumnVarNameInTable="columnsMaKH" msprop:Generator_ColumnPropNameInRow="sMaKH" msprop:Generator_ColumnPropNameInTable="sMaKHColumn" msprop:Generator_UserColumnName="sMaKH" type="xs:string" minOccurs="0" />
+              <xs:element name="dNgayLap" msprop:Generator_ColumnVarNameInTable="columndNgayLap" msprop:Generator_ColumnPropNameInRow="dNgayLap" msprop:Generator_ColumnPropNameInTable="dNgayLapColumn" msprop:Generator_UserColumnName="dNgayLap" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
